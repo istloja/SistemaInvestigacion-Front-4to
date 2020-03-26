@@ -1,0 +1,47 @@
+body {
+    background-image: url(../../../assets/istlVilca.PNG);
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: 'Numans', sans-serif;
+    margin-left: 7px;
+    margin-right: 5px;
+}
+
+.myform {
+    margin-top: 25%;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 1rem;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: rgba(255, 255, 255, 60%);
+    background-clip: padding-box;
+    border: 3px solid rgba(0, 0, 0, .2);
+    border-radius: 1.1rem;
+    outline: 0;
+    max-width: 500px;
+}
+
+.tx-tfm {
+    text-transform: uppercase;
+}
+
+.mybtn {
+    border-radius: 50px;
+}
+
+.login-or {
+    position: relative;
+    color: #aaa;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+form .error {
+    color: #ff0000;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a id="a" class="navbar-brand">ISTL</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="pagPrincipal">Inicio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pagPrincipal/proyectos">Proyectos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pagPrincipal/responsables">Responsables</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#">Grupos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#">Seguimiento</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#">Convenios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#">Libros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#">Articulos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#">Capacitaciones</a>
+                </li>
+                <button id="cerrar" type="submit" class=" btn btn-block mybtn btn-primary tx-tfm">Cerrar Sesion</button>
+            </ul>
+        </div>
+    </nav>
+    <router-outlet></router-outlet>
+</body>
+
+
+</html>
